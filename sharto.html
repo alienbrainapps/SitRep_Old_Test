@@ -1,0 +1,67 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+    <div class="center sliding">com</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+    </div>
+  </div>
+</div>
+<div class="pages">
+     
+  <!-- Page, data-page contains page name-->
+  <div data-page="sharetocommunities" class="page">
+      
+      <div class="pull-to-refresh-layer">
+      <div class="preloader"></div>
+      <div class="pull-to-refresh-arrow"></div>
+    </div>
+      
+    
+      <div class="navbar" style="background-color:#1EBAD2">
+              <div class="navbar-inner">
+                  <div class="center">Sit<span style="color:black">Rep</span></div>
+                  <div id="done" style="margin-left:60%" class="center"><span style="color:black">Done</span></div>
+              </div>
+      </div>
+      
+  <div class="page-content "style="margin-top:10%">
+  <div class="content-block">
+    <!-- Buttons row as tabs controller -->
+    <div class="buttons-row">
+      <!-- Link to 1st tab, active -->
+      <a href="#tab1" class="tab-link active button">Public Communities</a>
+      <!-- Link to 2nd tab -->
+      <a href="#tab2" class="tab-link button">Private Communities</a>
+      <!-- Link to 3rd tab -->
+    </div>
+  </div>
+  <!-- Tabs, tabs wrapper  public and private communities-->
+  <div class="tabs">
+    <!-- Tab 1, active by default -->
+    <div id="tab1" class="tab active">
+      <div class="content-block">
+          <div class="list-block">
+          <ul id="pup">
+          
+          </ul>
+          </div></div>
+    </div>
+    <!-- Tab 2 -->
+    <div id="tab2" class="tab">
+      <div class="content-block">
+          <ul id="pri">
+          
+          </ul>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</div>
+</div>
+
+   
